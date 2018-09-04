@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./example/index.html --out-dir dist_example",
+    "build": "parcel build ./index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/fangwentian/rg-redux/issues"
   },
-  "homepage": "https://github.com/fangwentian/rg-redux#readme"
+  "homepage": "https://github.com/fangwentian/rg-redux#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7",
+    "redux": "^4.0.0",
+    "regularjs": "^0.6.0"
+  }
 }
