@@ -17,6 +17,11 @@
   "bugs": {
     "url": "https://github.com/fangwentian/rg-redux/issues"
   },
+  "files": [
+    "dist",
+    "lib",
+    "example"
+  ],
   "homepage": "https://github.com/fangwentian/rg-redux#readme",
   "devDependencies": {
     "parcel-bundler": "^1.9.7",
