@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel ./example/index.html --out-dir dist_example",
-    "build": "parcel build ./index.js"
+    "build": "parcel build ./index.js --global Rgredux"
   },
   "repository": {
     "type": "git",
