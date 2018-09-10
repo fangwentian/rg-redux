@@ -6,6 +6,9 @@ const Title = Regular.extend({
     config(data) {
         data.desc = 'regularjs binding for redux'
     },
+    init() {
+        console.log(this.$store.getState())
+    },
     template: `
         <div>{title}: {desc}</div>
         <div><a href="javascript:;" on-click={this.modify()}>change to rg-redux</a></div>
